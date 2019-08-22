@@ -1,0 +1,94 @@
+html, body {
+  padding-top: 56px;
+  max-width: 100%;
+  background: url("/img/background.jpg") fixed no-repeat;
+  background-size: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.contain-me {
+  background-color: rgba(255, 255, 255, 0.30);
+  height: 450px;
+}
+
+.professional {
+  width: 385px;
+  height: 385px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.tech-holder {
+text-align: center;
+}
+
+.tech-stack {
+  display: inline;
+  padding: 5px;
+  width: 100px;
+  margin: 5px 10px 0px 10px;
+}
+
+.download {
+  text-align: center;
+  position: relative;
+  top:20px;
+}
+
+.logos {
+  padding: 5px;
+  width: 300px;
+}
+
+.contact-me {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 115%;
+}
+
+.fa {
+  font-size: 5em !important;
+}
+
+.projects-container{
+  justify-content: center;
+  text-align: center;
+}
+
+.projects-col{
+  display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.contact-container{
+  text-align: center;
+  position: relative;
+  top:50px;
+}
+
+.tech-container{
+  position: relative;
+  top:50px;
+}
+
+.tab-pane{
+  display:none;
+}
+
+.chromexlogo{
+  position: relative;
+  top:-75px;
+}
+
+.chromex-text{
+  position: relative;
+  top:-60px;
+}
+/* @media (max-width: 1200px) {
+  .contain-me{
+    height: calc(100vh + 100%) !important;
+  }
+} */
